@@ -7,6 +7,7 @@ OpenVZ
 * AlphaRacks: 便宜，但体验不太好，据说超售厉害
 * Ramnode: OpenVZ 和 KVM 都有，性价比一般
 * [VDS6](https://vds6.net/)
+* [LowEndSpirit](https://clients.inceptionhosting.com/cart.php?gid=13): 性价比很高，有IPv6，BBS上有人[评价不错](https://www.bdwm.net/v2/post-read.php?bid=484&threadid=15918334)
 
 KVM
 ---
