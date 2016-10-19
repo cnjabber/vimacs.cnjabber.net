@@ -53,3 +53,7 @@
 3. 总结内核的代码风格（``Documentation/CodingStyle``）
 4. 用 ``scripts/checkpatch.pl`` 检查自己写的代码
 
+作业检查时遇到的问题：
+
+1. ``pr_debug()``输出的信息在 dmesg 中不显示，原因是 ``pr_debug`` 只有在 ``DEBUG`` 宏打开或者打开了 ``ENABLE_DYNAMIC_DEBUG`` 选项时才起作用。``Documentation/CodingStyle``中有说明，``include/linux/printk.h``中也能看到相关宏定义。
+2. 自己编译的内核无法启动系统，能用emergency模式：原因可能是安装系统的时候使用LVM安装，initramfs缺少驱动。
