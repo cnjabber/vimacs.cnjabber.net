@@ -7,12 +7,13 @@
 * 地点: 理科一号楼 1817
 * 邮箱: vimacs.hacks AT gmail.com
 
-  * OpenPGP fingerprint: 9E5B 817B FF33 8DD7 0167  6C27 6DBD 8BFE 8600 BEAA
+ - OpenPGP fingerprint: 9E5B 817B FF33 8DD7 0167  6C27 6DBD 8BFE 8600 BEAA
+
 * 电话: use **printf "%d\n" 0x46131b3be** to get my phone number
 * GitHub: https://github.com/mytbk/
 * 未名BBS: vimacs
-* `Matrix <https://matrix.org>`_: @vimacs:matrixim.cc
-* `XMPP <https://xmpp.org>`_: vimacs@cnjabber.net
+* `Matrix <https://matrix.org>`_: ``@vimacs:matrixim.cc``
+* `XMPP <https://xmpp.org>`_: ``vimacs@cnjabber.net``
 
 第 1 次课
 ---------
@@ -65,5 +66,17 @@
 
 作业检查时遇到的问题：
 
-1. **pr_debug()** 输出的信息在 dmesg 中不显示，原因是 **pr_debug** 只有在 **DEBUG** 宏打开或者打开了 **ENABLE_DYNAMIC_DEBUG** 选项时才起作用。 **Documentation/CodingStyle** 中有说明，*include/linux/printk.h* 中也能看到相关宏定义。
-2. 自己编译的内核无法启动系统，能用 emergency 模式：原因是安装系统的时候使用 LVM 安装，initramfs 缺少驱动。
+#. **pr_debug()** 输出的信息在 dmesg 中不显示，原因是 **pr_debug** 只有在 **DEBUG** 宏打开或者打开了 **ENABLE_DYNAMIC_DEBUG** 选项时才起作用。 **Documentation/CodingStyle** 中有说明，*include/linux/printk.h* 中也能看到相关宏定义。
+
+#. 自己编译的内核无法启动系统: 如果在 ``make install`` 的时候发现 initramfs-tools 提示 WARNING 说找不到模块，应当先执行 ``make modules_install``.
+
+   - ``make install`` 的功能仅仅是调用系统中的 ``/sbin/installkernel``
+
+#. 要在内核版本中显示自定义的名字，可以修改 EXTRAVERSION 和使用 config 中的 LOCALVERSION，其中 EXTRAVERSION 在内核的 Makefile 中修改，LOCALVERSION 在以下位置配置:
+
+   ::
+
+     General setup --->
+       ()  Local version - append to kernel release
+
+   最终在内核版本后显示的字符串是 $(EXTRAVERSION)$(LOCALVERSION)
