@@ -80,3 +80,16 @@
        ()  Local version - append to kernel release
 
    最终在内核版本后显示的字符串是 $(EXTRAVERSION)$(LOCALVERSION)
+
+第 5 次课
+---------
+
+本次课讲解抽象层次，内容比较杂，介绍了内核中的分层架构、API 和 ABI 的区别、系统调用和VDSO等。
+
+实习题目:
+
+#. 修改 LKMPG 8.1 的例子，替换 ``open`` 调用，截获 test 用户的操作。
+
+#. 构建动态链接的 `hello world` 程序，用 ``strace`` 获取其系统调用。这些调用做了什么功能？
+
+
