@@ -92,6 +92,17 @@
 
 #. 构建动态链接的 `hello world` 程序，用 ``strace`` 获取其系统调用。这些调用做了什么功能？
 
+检查作业时遇到的问题:
+
+#. 修改系统调用表的方式:
+
+   - 导出 ``sys_call_table`` 后编译内核
+   - 加载模块前看 ``/proc/kallsyms`` 找 ``sys_call_table`` 的地址，然后让模块知道系统调用表的地址，注意内核可能会在启动时随机化这个地址
+   - 模块加载时搜索系统调用表，参考 `<https://github.com/leurfete/simple-rootkit/>`_
+   - 用 ``kallsyms_lookup_name``
+
+#. 注意学会用 ``man`` 查看函数的使用方式，包括系统调用
+
 第 6 次课
 ---------
 
