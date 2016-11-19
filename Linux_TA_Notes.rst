@@ -92,4 +92,35 @@
 
 #. 构建动态链接的 `hello world` 程序，用 ``strace`` 获取其系统调用。这些调用做了什么功能？
 
+第 6 次课
+---------
 
+这次课讲解 Linux 源码中的头文件。
+
+#. 选择 `lib/` 下的一个源文件，给出它的头文件包含关系图。
+
+#. 用 ``make headerdep`` 检查头文件嵌套包含，并解决一个嵌套包含关系。
+
+提示：学会使用 ``scripts/headerdep.pl``. 还有，Linux 源码会使用 libgcc 和 glibc 的头文件。
+
+第 7 次课
+---------
+
+本次课的名字叫调试之道。
+
+调试中的概念：
+
+* bug, typo, bug tracking system, Heisenbug
+* remote debugging
+* post-mortem, coredump
+* "wolf fence" debugging using ``git bisect``
+
+实习题目：
+
+#. 使用 **print_hex_dump** 打印 **boot_command_line** 和 **saved_command_line**
+
+#. 学会使用 Magic SysRQ
+
+#. 学会使用 **dump_stack**
+
+#. 学习 `Debugging the kernel using Ftrace <https://lwn.net/Articles/365835/>`_
