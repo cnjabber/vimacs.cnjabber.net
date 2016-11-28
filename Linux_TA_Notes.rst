@@ -130,8 +130,14 @@
 
 #. 使用 **print_hex_dump** 打印 **boot_command_line** 和 **saved_command_line**
 
-#. 学会使用 Magic SysRQ
+#. 学会使用 Magic SysRq
 
 #. 学会使用 **dump_stack**
 
 #. 学习 `Debugging the kernel using Ftrace <https://lwn.net/Articles/365835/>`_
+
+课程项目
+--------
+
+* 4个小组分别为 RISC-V 32, RISC-V 64, Unicore 32, Unicore 64 构建 QEMU, 内核和 busybox
+
