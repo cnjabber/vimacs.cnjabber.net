@@ -1,6 +1,8 @@
 Reverse engineering findakey
 ============================
 
+original url of findakey: http://www.reversing.be/easyfile/file.php?show=20051210213037366
+
 `findakey <findakey.tar.bz2>`_ is a program which is written in C++, statically linked and stripped. So it's not so easy to reverse engineering it and find a key to it. I'll show how to analyze this program and write a keygen for it.
 
 For security, I recommend using another user to run this program or run it in a virtual machine.
