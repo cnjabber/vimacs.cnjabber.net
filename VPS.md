@@ -14,7 +14,8 @@ KVM
 
 * [DigitalOcean](https://digitalocean.com/)
 * [Linode](https://www.linode.com/): 要求有信用卡
-* [Lunanode](https://www.lunanode.com/): 内存大，IPv6不是很好
+* [Lunanode](https://www.lunanode.com/): 内存大，IPv6不是很好，Flexible Plan用的居然是老平台的CPU
+* [Contabo](https://contabo.com/)和[OVH](https://www.ovh.com/us/): #matrix-dev:matrix.org 那边有两名网友用的VPS，感觉性价比完爆Lunanode
 
 Xen
 ---
