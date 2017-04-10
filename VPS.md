@@ -16,6 +16,7 @@ KVM
 * [Linode](https://www.linode.com/): 要求有信用卡
 * [Lunanode](https://www.lunanode.com/): 内存大，IPv6不是很好，Flexible Plan用的居然是老平台的CPU
 * [Contabo](https://contabo.com/)和[OVH](https://www.ovh.com/us/): #matrix-dev:matrix.org 那边有两名网友用的VPS，感觉性价比完爆Lunanode
+* [Scaleway](https://www.scaleway.com/): 也是一个很有性价比的提供商，需要用信用卡
 
 Xen
 ---
