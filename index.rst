@@ -14,6 +14,7 @@ You can find me with the following methods. **Do not use proprietary software, e
 - PGP: 9E5B 817B FF33 8DD7 0167  6C27 6DBD 8BFE 8600 BEAA `关于 OpenPGP <openpgp-about>`_
 - Matrix: @vimacs:matrixim.cc `学习使用 Matrix <matrix-guide>`_
 - XMPP: vimacs\@cnjabber.net `学习使用 XMPP <https://beijinglug.club/wiki/lib/exe/fetch.php?media=xmpp-guide.pdf>`_
+- Friendica/GNU Social/Diaspora*: `vimacs@squeet.me <https://squeet.me/profile/vimacs>`_
 
 I'm also on some IRC chat rooms. My nick on freenode is *vimacs*.
 
