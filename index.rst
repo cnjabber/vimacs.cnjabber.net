@@ -11,7 +11,8 @@ You can find me with the following methods. **Do not use proprietary software, e
 
 你可以用以下方式找我。**不要使用腾讯QQ、微信、Skype、Discord、WhatsApp、iMessage 等私有通信软件联系我。** 为了你的隐私，建议使用端对端加密。
 
-- PGP: 9E5B 817B FF33 8DD7 0167  6C27 6DBD 8BFE 8600 BEAA `关于 OpenPGP <openpgp-about>`_
+- PGP fingerprint: 7079B481F04B5D8B65A0ECDEEA2DB82FE04A9403
+- Old PGP: 9E5B 817B FF33 8DD7 0167  6C27 6DBD 8BFE 8600 BEAA `关于 OpenPGP <openpgp-about>`_
 - Matrix: @vimacs:matrixim.cc `学习使用 Matrix <matrix-guide>`_
 - XMPP: vimacs\@cnjabber.net `学习使用 XMPP <https://beijinglug.club/wiki/lib/exe/fetch.php?media=xmpp-guide.pdf>`_
 - Friendica/GNU Social/Diaspora*: `vimacs@squeet.me <https://squeet.me/profile/vimacs>`_
