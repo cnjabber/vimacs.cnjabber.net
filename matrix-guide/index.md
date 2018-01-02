@@ -1,6 +1,8 @@
 Matrix聊天快速指南
 ==================
 
+可以参考我在2017年软件自由日上的演讲，比本文更加详细： https://matrixim.cc/sfd2017-matrix.pdf
+
 矩阵一入深似海，从此[电幕](https://zh.wikipedia.org/wiki/%E7%94%B5%E5%B9%95)是路人。
 
 为什么用Matrix?
