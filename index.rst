@@ -7,18 +7,28 @@ Hi, I'm vimacs. I'm a member of Linux Club of Peking University.
 How to find me
 --------------
 
-You can find me with the following methods. **Do not use proprietary software, e.g. Tencent QQ, WeChat, Skype, Discord, WhatsApp, iMessage to find me.** Using end-to-end encryption is recommended!
-
-你可以用以下方式找我。**不要使用腾讯QQ、微信、Skype、Discord、WhatsApp、iMessage 等私有通信软件联系我。** 为了你的隐私，建议使用端对端加密。
-
-- PGP fingerprint: 7079B481F04B5D8B65A0ECDEEA2DB82FE04A9403 `关于 OpenPGP <openpgp-about>`_
+- Mail: vimacs.hacks@gmail.com
 - Matrix: @vimacs:matrixim.cc `学习使用 Matrix <matrix-guide>`_
 - XMPP: vimacs\@cnjabber.net `学习使用 XMPP <https://beijinglug.club/wiki/lib/exe/fetch.php?media=xmpp-guide.pdf>`_
 - Friendica/GNU Social/Diaspora*: `vimacs@squeet.me <https://squeet.me/profile/vimacs>`_
+- PGP fingerprint:
+  7079B481F04B5D8B65A0ECDE
+  EA2DB82FE04A9403 `关于 OpenPGP <openpgp-about>`_
 
 I'm also on some IRC chat rooms. My nick on freenode is *vimacs*.
 
-Use plain text when possible. If not, please give me PDF document or ODF document created by free software, e.g. LibreOffice.
+For more info about instant messaging, please refer to `PRISM Break <https://prism-break.org/en/all/#instant-messaging>`__.
 
-请尽量使用纯文本，如果不行，请给我发送PDF文档，或者用自由软件创建的ODF文档。`不要使用MS Office制作的任何文档，请用LibreOffice和ODF文档！ <https://technews.tw/2017/08/16/the-big-secret-of-ooxml/>`_
+关于即时通信方式，请参考 `PRISM Break <https://prism-break.org/zh-CN/all/#instant-messaging>`__.
+
+File formats you should and should not use:
+
+=====================  ===================
+ You should use         You shouldn't use
+=====================  ===================
+plain text, ODF, PDF   MS Office documents
+tar, 7z, zip           rar
+=====================  ===================
+
+
 
