@@ -30,5 +30,6 @@ plain text, ODF, PDF   MS Office documents
 tar, 7z, zip           rar
 =====================  ===================
 
-
-
+.. image:: https://liberapay.com/assets/widgets/donate.svg
+   :alt: Donate using Liberapay
+   :target: https://liberapay.com/vimacs/donate
