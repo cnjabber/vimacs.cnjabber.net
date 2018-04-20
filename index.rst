@@ -9,7 +9,7 @@ How to find me
 
 - Mail: vimacs.hacks@gmail.com
 - Matrix: @vimacs:matrixim.cc `学习使用 Matrix <matrix-guide>`_
-- XMPP: vimacs\@cnjabber.net `学习使用 XMPP <https://beijinglug.club/wiki/lib/exe/fetch.php?media=xmpp-guide.pdf>`_
+- Jabber/XMPP: vimacs\@wehack.space `学习使用 XMPP <https://beijinglug.club/wiki/lib/exe/fetch.php?media=xmpp-guide.pdf>`_
 - Friendica/GNU Social/Diaspora*: `vimacs@squeet.me <https://squeet.me/profile/vimacs>`_
 - PGP fingerprint:
   7079B481F04B5D8B65A0ECDE
