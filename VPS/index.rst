@@ -19,7 +19,12 @@ Some VPS
 * umount 一些不必要的挂载点
 * chroot 至 /root.x86_64, pacman-key --init, pacman-key --populate archlinux
 * 挂载 /dev/vda1 等分区，删掉里面的 /bin, /sbin, /usr, /etc, ...
-* 使用 pacstrap 安装系统，此后和 Arch 的常规安装流程相同
+* 使用 pacstrap 安装系统，此后和 Arch 的常规安装流程相同，注意以下设置：
+
+  - root 密码和 sudo 设置
+  - fstab
+  - bootloader (e.g. GRUB) 的安装和配置
+  - 安装完成后，重启前，记得配置网络和 SSH
 
 
 KVM
