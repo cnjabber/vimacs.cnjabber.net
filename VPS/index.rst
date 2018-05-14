@@ -33,7 +33,7 @@ KVM是目前开源界最成熟，兼容性最好的虚拟化方案。
 * `Linode <https://www.linode.com/>`__: 要求有信用卡
 * `Lunanode <https://www.lunanode.com/>`__: 内存大，IPv6不是很好，支持LiveCD启动；网络有Cogent和OVH两种；支持PayPal
 * `Contabo <https://contabo.com/>`__ 和 `OVH <https://www.ovh.com/us/>`__: #matrix-dev:matrix.org 那边有两名网友用的VPS，性价比非常高
-* `Scaleway <https://www.scaleway.com/>`__: 也是一个很有性价比的提供商，需要用信用卡。在FOSDEM 2018上提到他们使用coreboot.
+* `Scaleway <https://www.scaleway.com/>`__: 请参考我的 `Scaleway <Scaleway>` 笔记
 * `gigsgigscloud <https://www.gigsgigscloud.com/>`__: 一家有名气的提供中国线路的VPS提供商
 
 OpenVZ
