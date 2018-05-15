@@ -27,6 +27,13 @@ Some VPS
   - 安装完成后，重启前，记得配置网络和 SSH
 
 
+关于SMTP
+----------
+
+Scaleway 封了 IPv4 SMTP 服务（无法连接外部机器的25和465端口），IPv6 的 SMTP 端口没有被封。VMHaus 和 Lunanode 未发现此现象。可以用 nmap 测试，如::
+
+  nmap -Pn smtp.163.com
+
 KVM
 ---
 
@@ -38,7 +45,7 @@ KVM是目前开源界最成熟，兼容性最好的虚拟化方案。
 * `Linode <https://www.linode.com/>`__: 要求有信用卡
 * `Lunanode <https://www.lunanode.com/>`__: 内存大，IPv6不是很好，支持LiveCD启动；网络有Cogent和OVH两种；支持PayPal
 * `Contabo <https://contabo.com/>`__ 和 `OVH <https://www.ovh.com/us/>`__: #matrix-dev:matrix.org 那边有两名网友用的VPS，性价比非常高
-* `Scaleway <https://www.scaleway.com/>`__: 请参考我的 `Scaleway <Scaleway>` 笔记
+* `Scaleway <https://www.scaleway.com/>`__: 请参考我的 `Scaleway <Scaleway>`__ 笔记
 * `gigsgigscloud <https://www.gigsgigscloud.com/>`__: 一家有名气的提供中国线路的VPS提供商
 
 OpenVZ
